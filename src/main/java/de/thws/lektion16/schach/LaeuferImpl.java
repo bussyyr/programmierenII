@@ -1,6 +1,6 @@
 package de.thws.lektion16.schach;
 
-public class LaeuferImpl extends AbstractFigur implements Laeufer
+public class  LaeuferImpl extends AbstractFigur implements Laeufer
 {
   public LaeuferImpl(int x, int y)
   {

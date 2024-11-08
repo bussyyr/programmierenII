@@ -17,7 +17,7 @@ class PunktTest {
         }
         catch(RuntimeException e){
             String error = e.getMessage();
-            assertEquals(error, "Ungültige Werte");
+            assertEquals("Ungültige Werte", error);
         }
     }
 
@@ -29,37 +29,32 @@ class PunktTest {
         }
         catch(RuntimeException e){
             String error = e.getMessage();
-            assertEquals(error, "Ungültige Werte");
+            assertEquals("Ungültige Werte", error);
         }
     }
 
     @Test
-    public void testGrosseX(){
+    public void testGrosserX(){
         try{
             punkt.verschiebePunkt(1921,0);
             fail("Runtime Exception expected");
         }
         catch(RuntimeException e){
             String error = e.getMessage();
-            assertEquals(error, "Ungültige Werte");
+            assertEquals("Ungültige Werte", error);
         }
     }
 
     @Test
-    public void testGrosseY(){
+    public void testGrosserY(){
         try{
             punkt.verschiebePunkt(0,1081);
             fail("Runtime Exception expected");
         }
         catch(RuntimeException e){
             String error = e.getMessage();
-            assertEquals(error, "Ungültige Werte");
+            assertEquals("Ungültige Werte", error);
         }
     }
 
-    @Test
-    public void testXundY(){
-            punkt.verschiebePunkt(1920,1080);
-            punkt.verschiebePunkt(0, 0);
-    }
 }

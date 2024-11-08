@@ -8,12 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class KugelvolumenTest {
 
     @Test
-    public void testA(){
-        double radius = 0;
-        assertEquals(0, Kugelvolumen.berechneKugelvolumen(radius));
-    }
-
-    @Test
     public void testRadiusZero(){
         assertEquals((double) 4/3 * Math.PI * 0 * 0 * 0, Kugelvolumen.berechneKugelvolumen(0));
     }

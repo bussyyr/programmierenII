@@ -14,6 +14,8 @@ public class Person {
             throw new RuntimeException("Vorname muss mit einem Großbuchstaben beginnen");
         }
 
+        this.nachname = nachname;
+
         this.adresse = new Adresse();
 
         if(strasse.charAt(0) >= 'A' && strasse.charAt(0) <= 'Z'){

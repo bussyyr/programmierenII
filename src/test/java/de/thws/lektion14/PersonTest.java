@@ -54,5 +54,6 @@ class PersonTest {
     @Test
     public void testPerson(){
             Person person = new Person("Lara", "Tolini","Straße","1", 97078, "Würzburg");
+            assertNotNull(person);
     }
 }
