@@ -32,5 +32,5 @@ The project is organized into multiple packages, each corresponding to a specifi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your_username/java-programming-project.git
+   git clone https://github.com/bussyyr/java-programming-project.git
    cd java-programming-project
